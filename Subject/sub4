@@ -1,0 +1,11 @@
+ft_recursive_factorial
+
+Écrire une fonction récursive qui renvoie la factorielle du nombre passé en paramètre.
+Si l’argument est valide, la fonction ne doit pas renvoyer 0.
+Il ne faut pas gerer les "int overflow", le retour de la fonction sera indefini.
+Elle devra être prototypée de la façon suivante :
+int		ft_recursive_factorial(int nb);
+
+Dossier de rendu : ex03/
+Fichiers à rendre : ft_recursive_factorial.c
+Fonctions Autorisées : Aucune
