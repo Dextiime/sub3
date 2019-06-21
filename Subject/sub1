@@ -1,11 +1,10 @@
-ft_is_positive
+ft_print_reverse_alphabet
 
-Consigne : Écrire une fonction qui affiche ’N’ ou ’P’ suivant le signe de l’entier passé en
-paramètre. Si n est positif alors afficher ’P’. Si n est negatif ou nul alors afficher
-’N’.
+Consigne : Écrire une fonction qui affiche l’alphabet en minuscule sur une seule ligne, dans l’ordre décroissant, à partir de la lettre ’z’.
 Elle devra être prototypée de la façon suivante :
-void	ft_is_positive(int n)
+void	ft_print_reverse_alphabet(void)
 
 Dossier de rendu : ex00/
-Fichiers à rendre : ft_is_negative.c
+Fichiers à rendre : ft_print_reverse_alphabet.c
 Fonctions Autorisées : write
+/!\ Attention, utilisation de While obligatoire /!\

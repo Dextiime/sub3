@@ -1,21 +1,9 @@
-ft_atoi
+ft_strlcpy
 
-Consigne : Ecrire une fonction qui convertit le début de la chaîne pointée par str en entier de type
-int.
-str peut commencer par un nombre arbitraire de ‘white space‘ (comme defini par isspace(3))
-str peut ensuite être suivi par un nombre arbitraire de signe + et de signe -. Le signe -
-fera changer le signe de l’entier retourné en fonction du nombre de signe - et si celui ci
-est pair ou impair.
-Pour finir str devra être composée de chiffre de la base 10
-Votre fonction devra lire str tant que celle ci suit les règles au dessus et elle doit retourner
-le nombre trouvé jusque là.
-Vous ne devriez pas prendre en compte les overflows et les underflows, le résultat est
-considérer comme indéfini dans ces cas.
-Vous pouvez comparer votre fonction avec la vrai fonction atoi à part la partie sur les
-signes ainsi que l’overflow.
+Consigne :  Reproduire à l’identique le fonctionnement de la fonction strlcpy (man strlcpy).
 Elle devra être prototypée de la façon suivante :
-int		ft_atoi(char *str);
+unsigned int ft_strlcpy(char *dest, char *src, unsigned int size);
 
 Dossier de rendu : ex02/
-Fichiers à rendre : ft_atoi.c
+Fichiers à rendre : ft_strlcpy.c
 Fonctions Autorisées : Aucune
